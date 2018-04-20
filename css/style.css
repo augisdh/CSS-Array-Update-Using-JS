@@ -1,0 +1,58 @@
+:root {
+    --base: #e0db96;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hjs {
+    color: var(--base);
+}
+
+body {
+    background: #9DE0AD;
+    background: linear-gradient(#E5FCC2, #9DE0AD , #45ADA8, #547980, #594F4F) fixed;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 42px;
+    color: #666666;
+}
+
+.controls {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.controls div{
+    max-width: 600px;
+    min-width: 200px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+label {
+    padding-top: 5px;
+    color: #547980;
+    font-weight: bold;
+}
+
+img {
+    position: relative;
+    width: 50%;
+    margin-top: 100px;
+    border-radius: 5px;
+}
